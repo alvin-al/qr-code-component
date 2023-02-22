@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit");
+body {
+  height: 100vh;
+  background-color: hsl(220, 15%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.big-square {
+  width: 325px;
+  height: 500px;
+  border: 30cm;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding-top: 17.5px;
+  box-shadow: 5px 10px #171717 90%;
+}
+
+.qr-square {
+  width: 290px;
+  height: 290px;
+  background-color: blue;
+  margin: auto;
+}
+.t1 {
+  text-align: center;
+}
+.qr{
+  margin: auto;
+  width: 100%;
+  height: 290px;
+}
+.qr, .qr-square {
+  border-radius: 5px;
+}
+.p1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  
+}
+.p2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
